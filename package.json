@@ -1,0 +1,21 @@
+{
+  "name": "split_yaml",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^20.12.7",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "js-yaml": "^4.1.0"
+  }
+}

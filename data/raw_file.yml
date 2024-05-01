@@ -1,0 +1,31 @@
+apiVersion: api/v1
+kind: myweb-fab1-datasource-cm
+employed: True
+foods:
+    - Apple
+    - Orange
+languages:
+    ruby: Elite
+    python: Elite
+    dotnet: Lame
+---
+apiVersion: api/v1
+kind: Deployment
+employed: True
+foods:
+    - Apple
+languages:
+    ruby: Elite
+    python: Elite
+---
+apiVersion: api/v1
+kind: service
+employed: True
+foods:
+    - Apple
+    - Orange
+    - Strawberry
+languages:
+    ruby: Elite
+    python: Elite
+    dotnet: Lame
